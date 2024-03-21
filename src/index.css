@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(255, 247, 0);
+}
+.input {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input > input {
+  height: 5vh;
+  width: 70vw;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  padding-left: 10px;
+  font-size: large;
+  color: aliceblue;
+  border: none;
+}
+.text {
+  width: 90%;
+}
+.button {
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+.button:hover {
+  transition: 0.2s;
+  color: black;
+  background-color: rgb(255, 234, 0);
+  border: solid 1.5px white;
+}
+.button:active {
+  transition: 0.2s;
+  background-color: rgb(255, 234, 0);
+}
+.input > input::placeholder {
+  color: rgb(166, 166, 166);
+  font-size: large;
+}
+.disp-todo {
+  font-size: larger;
+  width: 80vw;
+  margin: auto;
+}
+.todo {
+  width: 90vw;
+  display: flex;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  align-items: center;
+  margin: 10px auto;
+  justify-content: space-between;
+  height: 5vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.check {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.delete {
+  margin: 0 1rem;
+  font-size: larger;
+  cursor: pointer;
+  text-align: end;
+  align-content: end;
+}
+svg {
+  cursor: pointer;
+}
+.line {
+  transition: 2s;
+  text-decoration: line-through;
+}
+.no-line {
+  text-decoration: none;
+}
+input[type="checkbox"] {
+  accent-color: #ffbf00;
+}

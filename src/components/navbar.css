@@ -1,0 +1,20 @@
+.nav {
+  height: 8vh;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: first baseline;
+  color: aliceblue;
+}
+.brand {
+  width: 10vw;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  height: 50px;
+}
